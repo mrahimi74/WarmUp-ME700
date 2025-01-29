@@ -1,5 +1,5 @@
 import numpy as np
-import bisection as bs
+from main_function import bisection as bs
 
 #Example1 - we're given the equation of deflection of a simply supported beam. we want to find a location where the deflection is 0.002
 #E = 1000 MPa, I = 25 mm^4, L = 70mm, q = 20 N/mm
