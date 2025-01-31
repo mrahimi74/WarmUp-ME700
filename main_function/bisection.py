@@ -18,10 +18,6 @@ def check(a: float, b: float):
         raise ValueError(f"Invalid input: {a} is greater than {b}.")
     return True
 
-def check_iter(num_iter: int, max_iter: int):
-    if num_iter > max_iter:
-        raise ValueError(f"Maximum number of iterations ({max_iter}) reached without convergence")
-    return
 
 def opps_sign(a, b, func):
     if func(b) * func(a) < 0:
