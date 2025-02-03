@@ -1,5 +1,5 @@
 import numpy as np
-from main_function import bisection as bisc
+import bisection as bisc
 import pytest
 
 def test_avg_x_y():
